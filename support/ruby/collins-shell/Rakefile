@@ -62,3 +62,6 @@ YARD::Rake::YardocTask.new do |t|
   t.files = ['lib/**/*.rb']
   t.options = ['--markup', 'markdown']
 end
+
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
