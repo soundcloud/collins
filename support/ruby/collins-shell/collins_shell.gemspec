@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('collins_client', '~> 0.2.20')
   s.add_runtime_dependency('highline','~> 1.6.15')
   s.add_runtime_dependency('mustache','~> 0.99.4')
-  s.add_runtime_dependency('pry','~> 0.9.9.6')
+  s.add_runtime_dependency('pry','~> 0')
   s.add_runtime_dependency('terminal-table','~> 1.4.5')
   s.add_runtime_dependency('thor','~> 0.19.0')
 
