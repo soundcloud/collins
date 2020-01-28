@@ -10,7 +10,7 @@ RUN apt-get update && \
     rm -r /var/lib/apt/lists/* && \
     cd /build && \
     export ACTIVATOR_VERSION=1.3.7 && \
-    wget -q http://downloads.typesafe.com/typesafe-activator/$ACTIVATOR_VERSION/typesafe-activator-$ACTIVATOR_VERSION-minimal.zip -O /build/activator.zip && \
+    wget -q https://downloads.typesafe.com/typesafe-activator/$ACTIVATOR_VERSION/typesafe-activator-$ACTIVATOR_VERSION-minimal.zip -O /build/activator.zip && \
     unzip -q ./activator.zip && \
     cd collins && \
     java -version 2>&1 && \
