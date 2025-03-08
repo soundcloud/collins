@@ -1,8 +1,8 @@
-resolvers += "Twitter Repository" at "http://maven.twttr.com/"
+resolvers += "Twitter Repository" at "https://maven.twttr.com/"
 
-resolvers += "Sonatype-public" at "http://oss.sonatype.org/content/groups/public"
+resolvers += "Sonatype-public" at "https://oss.sonatype.org/content/groups/public"
 
-resolvers += "Restlet repository" at "http://maven.restlet.org"
+resolvers += "Restlet repository" at "https://maven.restlet.talend.com"
 
 Keys.fork in Test := true
 
